@@ -65,7 +65,7 @@ export const Trip = ({ user }) => {
       // console.log({ object });
       return object.item === e.target.id;
     });
-
+    // check to index
     if (index !== -1) {
       personalEquip[index].checked = !e.target.checked;
     }
