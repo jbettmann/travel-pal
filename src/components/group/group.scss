@@ -22,9 +22,12 @@
 }
 
 .item {
-  margin: 1.2rem 0;
+  margin: 0.8rem 0;
   display: flex;
   align-items: center;
+  border: solid 1px rgb(18 99 72);
+  padding: 0.6rem;
+  border-radius: 10px;
   label {
     flex: 1;
     margin: 0 0.5rem;

@@ -23,9 +23,12 @@
 }
 
 .item {
-  margin: 1.2rem 0;
+  margin: 0.8rem 0;
   display: flex;
   align-items: center;
+  border: solid 1px #146348;
+  padding: 0.6rem;
+  border-radius: 10px;
   label {
     flex: 1;
     margin: 0 0.5rem;
@@ -39,7 +42,7 @@
   height: 2rem;
   border-radius: 50%;
   box-shadow: none;
-  background-color: rgb(32, 183, 133);
+  background-color: rgb(18 99 72);
   color: #000;
 
   transition: all 0.2s;
