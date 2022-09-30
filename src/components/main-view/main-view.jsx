@@ -13,7 +13,7 @@ export const MainView = () => {
   });
   return (
     <Routes>
-      <Route exact path="/" element={<Login setUser={setUser} />} />
+      <Route path="/" element={<Login setUser={setUser} />} />
       <Route path="/trip" element={<Trip user={user} />} />
     </Routes>
   );
