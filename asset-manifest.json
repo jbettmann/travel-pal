@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/travel-pal/static/css/main.c9b36ce2.css",
+    "main.css": "/travel-pal/static/css/main.6994efe2.css",
     "main.js": "/travel-pal/static/js/main.81cd6205.js",
     "static/js/787.a1d64f78.chunk.js": "/travel-pal/static/js/787.a1d64f78.chunk.js",
     "service-worker.js": "/travel-pal/service-worker.js",
     "static/media/logo.svg": "/travel-pal/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
     "index.html": "/travel-pal/index.html",
-    "main.c9b36ce2.css.map": "/travel-pal/static/css/main.c9b36ce2.css.map",
+    "main.6994efe2.css.map": "/travel-pal/static/css/main.6994efe2.css.map",
     "main.81cd6205.js.map": "/travel-pal/static/js/main.81cd6205.js.map",
     "787.a1d64f78.chunk.js.map": "/travel-pal/static/js/787.a1d64f78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9b36ce2.css",
+    "static/css/main.6994efe2.css",
     "static/js/main.81cd6205.js"
   ]
 }
