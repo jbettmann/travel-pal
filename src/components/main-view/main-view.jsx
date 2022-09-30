@@ -12,9 +12,11 @@ export const MainView = () => {
     person = person.current;
   });
   return (
-    <Routes>
-      <Route path="/" element={<Login setUser={setUser} />} />
-      <Route path="/trip" element={<Trip user={user} />} />
-    </Routes>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Login setUser={setUser} />} />
+        <Route path="/trip" element={<Trip user={user} />} />
+      </Routes>
+    </Router>
   );
 };
