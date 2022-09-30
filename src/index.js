@@ -6,14 +6,11 @@ import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 import reportWebVitals from "./reportWebVitals";
 import { MainView } from "./components/main-view/main-view";
 import { BrowserRouter } from "react-router-dom";
-import { Login } from "./components/login/login";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Login />
-    </BrowserRouter>
+    <MainView />
   </React.StrictMode>
 );
 
