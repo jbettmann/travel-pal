@@ -2,7 +2,7 @@
   "name": "travel-pal",
   "version": "0.1.0",
   "private": true,
-  "default": "src/index.html",
+  "default": "public/index.html",
   "homepage": "https://jbettmann.github.io/travel-pal",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
