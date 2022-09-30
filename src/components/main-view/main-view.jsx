@@ -1,6 +1,13 @@
 import React, { useEffect, useRef } from "react";
 import { useState } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Switch,
+  Route,
+  Link,
+  BrowserRouter,
+} from "react-router-dom";
 
 import { Login } from "../login/login.jsx";
 import { Trip } from "../trip/trip.jsx";
