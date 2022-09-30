@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Route, HashRouter as Router, Routes } from "react-router-dom";
 
 import { Login } from "../login/login.jsx";
 import { Trip } from "../trip/trip.jsx";
