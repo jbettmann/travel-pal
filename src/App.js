@@ -7,7 +7,7 @@ import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter basename="/index.html" className="App">
+    <BrowserRouter>
       <MainView />
     </BrowserRouter>
   );

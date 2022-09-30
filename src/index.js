@@ -4,13 +4,12 @@ import "./index.css";
 
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 import reportWebVitals from "./reportWebVitals";
-import { MainView } from "./components/main-view/main-view";
-import { BrowserRouter } from "react-router-dom";
+import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <MainView />
+    <App />
   </React.StrictMode>
 );
 
