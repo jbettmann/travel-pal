@@ -9,13 +9,14 @@ import { BrowserRouter } from "react-router-dom";
 import { Login } from "./components/login/login";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Login />);
-//   <React.StrictMode>
-//     <BrowserRouter>
-//       <MainView />
-//     </BrowserRouter>
-//   </React.StrictMode>
-// );
+root.render(
+  <React.StrictMode>
+    <Login />
+    {/* <BrowserRouter>
+      <MainView />
+    </BrowserRouter> */}
+  </React.StrictMode>
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
